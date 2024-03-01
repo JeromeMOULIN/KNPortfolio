@@ -1,0 +1,15 @@
+nav {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fffff4;
+
+  gap: 5em;
+
+  width: 100%;
+}

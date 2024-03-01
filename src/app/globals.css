@@ -73,16 +73,36 @@
   }
 }
 
+/* color */
+.black {
+  color: #000000;
+}
+.white {
+  color: #d4d4d4;
+}
+.ivory {
+  color: #fffff4;
+}
+.gray {
+  color: #555555;
+}
+.orange {
+  color: #f19c5d;
+}
+.jaune {
+  color: #ffeb82;
+}
+.salmon {
+  color: #ff9292;
+}
+.underline {
+  text-decoration: underline;
+}
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  list-style: none;
 }
 
 body {
@@ -94,14 +114,92 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f19c5d;
+}
+section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* home */
+section:nth-child(1) {
+  background: rgb(85, 85, 85);
+  background: linear-gradient(
+    115deg,
+    rgba(85, 85, 85, 1) 0%,
+    rgba(0, 0, 0, 1) 80%
+  );
+}
+/* Profile */
+section:nth-child(2) {
+  background: rgb(85, 85, 85);
+  background: linear-gradient(
+    290deg,
+    rgba(85, 85, 85, 1) 30%,
+    rgba(0, 0, 0, 1) 80%
+  );
+}
+/* skill */
+section:nth-child(3) {
+  background: rgb(85, 85, 85);
+  background: linear-gradient(
+    115deg,
+    rgba(85, 85, 85, 1) 30%,
+    rgba(0, 0, 0, 1) 70%
+  );
+}
+/* project */
+section:nth-child(4) {
+  background: rgb(85, 85, 85);
+  background: linear-gradient(
+    290deg,
+    rgba(85, 85, 85, 1) 30%,
+    rgba(0, 0, 0, 1) 80%
+  );
+}
+/* contact */
+section:nth-child(5) {
+  background: rgb(85, 85, 85);
+  background: linear-gradient(
+    115deg,
+    rgba(85, 85, 85, 1) 30%,
+    rgba(0, 0, 0, 1) 80%
+  );
+}
+.wrapper {
+  display: flex;
+  width: 500vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+/* Container is the new body */
+.container {
+  scrollbar-width: none;
+  height: 100vw;
+  width: 100vh;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.logoHome {
+  position: absolute;
+  opacity: 0.2;
+  border-radius: 400px;
 }
