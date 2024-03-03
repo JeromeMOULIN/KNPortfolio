@@ -135,45 +135,45 @@ section {
 section:nth-child(1) {
   background: rgb(85, 85, 85);
   background: linear-gradient(
-    115deg,
+    90deg,
     rgba(85, 85, 85, 1) 0%,
-    rgba(0, 0, 0, 1) 80%
+    rgba(0, 0, 0, 1) 100%
   );
 }
 /* Profile */
 section:nth-child(2) {
   background: rgb(85, 85, 85);
   background: linear-gradient(
-    290deg,
-    rgba(85, 85, 85, 1) 30%,
-    rgba(0, 0, 0, 1) 80%
+    -90deg,
+    rgba(85, 85, 85, 1) 5%,
+    rgba(0, 0, 0, 1) 100%
   );
 }
 /* skill */
 section:nth-child(3) {
   background: rgb(85, 85, 85);
   background: linear-gradient(
-    115deg,
-    rgba(85, 85, 85, 1) 30%,
-    rgba(0, 0, 0, 1) 70%
+    90deg,
+    rgba(85, 85, 85, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
   );
 }
 /* project */
 section:nth-child(4) {
   background: rgb(85, 85, 85);
   background: linear-gradient(
-    290deg,
-    rgba(85, 85, 85, 1) 30%,
-    rgba(0, 0, 0, 1) 80%
+    -90deg,
+    rgba(85, 85, 85, 1) 5%,
+    rgba(0, 0, 0, 1) 100%
   );
 }
 /* contact */
 section:nth-child(5) {
   background: rgb(85, 85, 85);
   background: linear-gradient(
-    115deg,
-    rgba(85, 85, 85, 1) 30%,
-    rgba(0, 0, 0, 1) 80%
+    90deg,
+    rgba(85, 85, 85, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
   );
 }
 .wrapper {
