@@ -1,0 +1,43 @@
+#profil {
+  display: flex;
+}
+.contentSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.speech,
+.GBSection {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.speech {
+  flex-direction: column;
+}
+.speech p {
+  text-align: center;
+  height: 20em;
+  margin: 0 4em;
+}
+.speech button {
+  background-color: #f19c5d;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  bottom: 0;
+  height: 3em;
+  width: 10em;
+}
+.GB {
+  background-image: url("/assets/img/GameBoy/gameboy.png");
+  height: 510px;
+  width: 365px;
+  display: flex;
+  justify-content: center;
+}
+.avatar {
+  margin-top: 48px;
+}

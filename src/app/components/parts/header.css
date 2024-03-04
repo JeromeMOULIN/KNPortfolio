@@ -9,7 +9,7 @@ header {
   align-items: center;
   gap: 10px;
 
-  background-color: rgb(85, 85, 85);
+  background-color: rgb(85, 85, 85, 0.2);
 }
 header img {
   margin-top: 2em;

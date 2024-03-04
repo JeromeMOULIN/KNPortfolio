@@ -176,6 +176,13 @@ section:nth-child(5) {
     rgba(0, 0, 0, 1) 100%
   );
 }
+.contentSection {
+  background-color: rgb(85, 85, 85, 0.2);
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 1040px;
+  height: 720px;
+}
 .wrapper {
   display: flex;
   width: 500vw;
