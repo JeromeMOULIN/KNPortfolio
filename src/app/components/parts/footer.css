@@ -6,7 +6,7 @@ footer {
   height: 200px;
   transform: translateY(170px);
   transition: transform 1s cubic-bezier(0.18, 0.83, 0.76, 0.74),
-    opacity 1s ease-in-out;
+    background-color 1s ease-in-out;
   width: 95vw;
 
   display: flex;
@@ -15,12 +15,11 @@ footer {
   gap: 10px;
 
   border-left: 1px solid gray;
-  background-color: #555555;
-  opacity: 0.2;
+  background-color: rgb(85, 85, 85, 0.2);
 }
 
 footer button {
-  margin: 0.2rem;
+  padding: 0.3rem;
   width: 95%;
   cursor: pointer;
 
@@ -31,16 +30,16 @@ footer button {
   font-size: 20px;
   border: none;
   border-bottom: 1px solid #666666;
-  background-color: #555555;
+  background-color: rgb(85, 85, 85, 0);
 }
 footer button span {
   color: white;
   transition: transform 1s cubic-bezier(0.18, 0.83, 0.76, 0.74),
-    opacity 1s ease-in-out;
+    background-color 1s ease-in-out;
 }
 .unWrap {
   transform: translateY(0);
-  opacity: 1;
+  background-color: rgb(85, 85, 85);
 }
 .rotate {
   transform: rotate(180deg);
