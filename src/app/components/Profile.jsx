@@ -46,7 +46,13 @@ export default function Profile() {
               ? data[igb].text
               : "No data was founded please wait or refresh the page"}
           </p>
-          <button onClick={progress}>▼</button>
+          <div className="Miscellaneaous">
+            <span className="orange">
+              {igb + 1} / {data ? data.length : "Error no data found"}
+            </span>
+
+            <button onClick={progress}>▼</button>
+          </div>
         </div>
       </div>
     </section>
