@@ -48,7 +48,10 @@ export default function Profile() {
           </p>
           <div className="Miscellaneaous">
             <div className="orange">
-              {igb + 1} / {data ? data.length : "Error no data found"}
+              <span className={igb + 1 === 4 ? "orange" : " ivory"}>
+                {igb + 1}
+              </span>
+              / {data ? data.length : "Error no data found"}
             </div>
 
             <button onClick={progress}>▼</button>
