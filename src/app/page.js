@@ -7,8 +7,15 @@ import Contact from "./components/Contact";
 import Header from "./components/parts/Header";
 import Footer from "./components/parts/Footer";
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Home() {
+  const [i, seti] = useState(0);
+
+  document.querySelector("body").scroll(() => {
+    seti(i + 1);
+    console.log(i);
+  });
   return (
     <>
       <Header />
@@ -20,7 +27,7 @@ export default function Home() {
               <Image
                 className="logoHome"
                 src="/assets/img/icon/icon_KaNa.jpeg"
-                alt="Logo"
+                alt="Logo KaNa"
                 height={600}
                 width={600}
               />

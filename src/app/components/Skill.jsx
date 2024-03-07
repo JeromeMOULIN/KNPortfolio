@@ -25,7 +25,7 @@ export default function Skill() {
                   <div key={skill.id} className="skill">
                     <Image
                       src={"/assets/img/icon/iconSlack/" + skill.img}
-                      alt="logo"
+                      alt={skill.name + "logo"}
                       width={50}
                       height={50}
                     />
