@@ -1,0 +1,65 @@
+/* general */
+#skill .contentSection {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#skill button {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.SkillSection {
+  display: flex;
+  background-color: rgb(85, 85, 85, 0.2);
+}
+/* Stack */
+/* Network */
+.Networks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  border-radius: 20px;
+  height: 6em;
+}
+.btnNetworks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.Networks button {
+  height: 2rem;
+  padding: 0 3em;
+  border: none;
+  border-radius: 25px;
+}
+.github {
+  background-color: black;
+  color: ivory;
+}
+.linkedin {
+  background-color: darkblue;
+  color: lightblue;
+}
+.deviantart {
+  background-color: darkgreen;
+  color: lightgreen;
+}
+/* CV */
+.CV {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: ivory;
+  border-radius: 20px;
+  height: 5em;
+  width: 80%;
+}
+.CV button {
+  background-color: rgb(229, 162, 104);
+  border: none;
+  border-radius: 25px;
+  padding: 0 3em;
+  height: 2rem;
+}
