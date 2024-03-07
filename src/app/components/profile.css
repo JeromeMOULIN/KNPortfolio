@@ -29,10 +29,15 @@
 }
 .speech button {
   background-color: #f19c5d;
+  box-shadow: #a3683b 0px 3px 0px;
   border: none;
   border-radius: 20px;
   height: 3em;
   width: 10em;
+}
+.speech button:active {
+  transform: translateY(1px);
+  box-shadow: #a3683b 0px 1px 0px;
 }
 .GB {
   background-image: url("/assets/img/GameBoy/gameboy.png");

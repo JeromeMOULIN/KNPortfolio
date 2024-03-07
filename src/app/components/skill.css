@@ -3,15 +3,30 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
-#skill button {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
 .SkillSection {
   display: flex;
   background-color: rgb(85, 85, 85, 0.2);
 }
 /* Stack */
+.Skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 8em;
+  width: 80%;
+  border-radius: 25px;
+}
+.stack {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* Network */
 .Networks {
   display: flex;
@@ -29,22 +44,44 @@
   width: 100%;
 }
 .Networks button {
-  height: 2rem;
-  padding: 0 3em;
   border: none;
   border-radius: 25px;
 }
+.btnNetworks button a {
+  align-items: center;
+  height: 2rem;
+  padding: 0 3em;
+  display: flex;
+}
+/* git BTN */
 .github {
   background-color: black;
+  box-shadow: ivory 0px 2px 0px;
   color: ivory;
 }
-.linkedin {
-  background-color: darkblue;
-  color: lightblue;
+.github:active {
+  transform: translateY(1px);
+  box-shadow: ivory 0px 1px 0px;
 }
+/* linkedIn BTN */
+.linkedin {
+  background-color: #0f335e;
+  color: #6e97d3;
+  box-shadow: #6e97d3 0px 2px 0px;
+}
+.linkedin:active {
+  transform: translateY(1px);
+  box-shadow: #6e97d3 0px 1px 0px;
+}
+/* Deviantart BTN */
 .deviantart {
   background-color: darkgreen;
   color: lightgreen;
+  box-shadow: lightgreen 0px 2px 0px;
+}
+.deviantart:active {
+  transform: translateY(1px);
+  box-shadow: lightgreen 0px 1px 0px;
 }
 /* CV */
 .CV {

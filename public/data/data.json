@@ -19,16 +19,54 @@
   ],
   "skills": [
     {
-      "skill": "html.png",
+      "id": 1,
+      "img": "html.png",
       "name": "HTML"
     },
     {
-      "skill": "css.png",
+      "id": 2,
+      "img": "css.png",
       "name": "CSS"
     },
     {
-      "skill": "javascript.png",
+      "id": 3,
+      "img": "javascript.png",
       "name": "JavaScript"
+    },
+    {
+      "id": 4,
+      "img": "redux.svg",
+      "name": "Redux Toolkit"
+    },
+    {
+      "id": 5,
+      "img": "react.svg",
+      "name": "React"
+    },
+    {
+      "id": 6,
+      "img": "vite.svg",
+      "name": "Vite"
+    },
+    {
+      "id": 7,
+      "img": "next.svg",
+      "name": "Next JS"
+    },
+    {
+      "id": 8,
+      "img": "sass.png",
+      "name": "Sass"
+    },
+    {
+      "id": 9,
+      "img": "figma.png",
+      "name": "Figma"
+    },
+    {
+      "id": 10,
+      "img": "github.png",
+      "name": "Github"
     }
   ],
   "project": {
