@@ -60,7 +60,14 @@ export default function Skill() {
         </div>
         <div className="SkillSection CV">
           <p className="black">Télecharger mon CV juste ici 👉</p>
-          <button>Télécharger</button>
+          <button download="CV_2024-03-02_Jérôme_MOULIN">
+            <Link
+              href="/assets/files/CV_2024-03-02_Jérôme_MOULIN.pdf"
+              target="_blank"
+            >
+              Télécharger
+            </Link>
+          </button>
         </div>
       </div>
     </section>

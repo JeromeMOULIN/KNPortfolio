@@ -13,6 +13,7 @@ form {
 }
 label {
   width: 20%;
+  color: ivory;
 }
 input {
   background-color: #555555;
@@ -20,6 +21,7 @@ input {
   color: ivory;
   border-radius: 25px;
   height: 30px;
+  padding: 5px;
 }
 #subject,
 #email {
@@ -46,7 +48,7 @@ input {
   width: 100%;
 }
 .bottomform button {
-  margin-left: 5em;
+  margin-left: 2em;
   padding: 1em;
   background-color: #ffeb82;
   box-shadow: orange 0px 2px 0px;

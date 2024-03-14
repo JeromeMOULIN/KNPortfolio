@@ -1,5 +1,11 @@
 section {
   display: flex;
+  background: rgb(85, 85, 85);
+  background: linear-gradient(
+    90deg,
+    rgba(85, 85, 85, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   gap: 5em;
 }
 section .errorTitle {

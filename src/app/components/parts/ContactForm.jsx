@@ -1,11 +1,7 @@
-"use client";
 import "./contactform.css";
 export default function ContactForm() {
-  const send = (e) => {
-    alert("rentré");
-  };
   return (
-    <form onSubmit={send}>
+    <form>
       <div className="names">
         <label htmlFor="lastname">
           Nom<span className="jaune">*</span> :

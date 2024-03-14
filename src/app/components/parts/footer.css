@@ -7,7 +7,7 @@ footer {
   transform: translateY(170px);
   transition: transform 1s cubic-bezier(0.18, 0.83, 0.76, 0.74),
     background-color 1s ease-in-out;
-  width: 95vw;
+  width: 90vw;
 
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@ footer {
 
 footer button {
   padding: 0.3rem;
-  width: 95%;
+  width: 90%;
   cursor: pointer;
 
   display: flex;
