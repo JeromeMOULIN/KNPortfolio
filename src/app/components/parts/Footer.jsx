@@ -2,6 +2,8 @@
 import "./footer.css";
 
 const Footer = () => {
+
+  // Footer animation, toggle classes when clicked
   const wrapperFooter = () => {
     document.querySelector("#footer").classList.toggle("unWrap");
     document.querySelector("#arrowFooter").classList.toggle("rotate");

@@ -72,6 +72,8 @@
   "project": {
     "preview": "portfolio.png",
     "name": "Portfolio",
-    "description": "A simple portfolio website"
+    "description": "A simple portfolio website",
+    "language": ["html", "css", "js"],
+    "gitAdress": "https://github.com/x"
   }
 }

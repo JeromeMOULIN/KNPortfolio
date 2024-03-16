@@ -8,11 +8,12 @@ export default function Profile() {
   const [igb, setIgb] = useState(0);
 
   useEffect(() => {
+    // fetch data from json fil and set gameboy part of this data
     fetch("data/data.json")
       .then((res) => res.json())
       .then((data) => setData(data.gameboy));
   }, []);
-
+  // set an index for progress in profil array
   const progress = () => {
     if (igb >= data.length - 1) {
       setIgb(0);

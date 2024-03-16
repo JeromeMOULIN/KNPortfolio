@@ -124,7 +124,7 @@ a {
 .logoHome {
   position: absolute;
   opacity: 0.2;
-  border-radius: 400px;
+  border-radius: 600px;
 }
 /* utilities */
 .ref-for-header {
@@ -135,7 +135,4 @@ a {
   opacity: 0;
   height: 50px;
   width: 400px;
-}
-.bg-opacity-1 {
-  background-color: rgb(85, 85, 85, 1);
 }

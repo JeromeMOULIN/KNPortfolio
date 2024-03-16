@@ -15,3 +15,6 @@ header img {
   margin-top: 2em;
   border-radius: 50px;
 }
+.bg-opacity-1 {
+  background-color: rgb(85, 85, 85, 1);
+}

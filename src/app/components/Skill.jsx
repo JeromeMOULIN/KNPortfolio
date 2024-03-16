@@ -8,6 +8,7 @@ export default function Skill() {
   const [data, setData] = useState();
 
   useEffect(() => {
+    // fetch data from json file and set skill part of this data
     fetch("data/data.json")
       .then((res) => res.json())
       .then((data) => setData(data.skills));

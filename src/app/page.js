@@ -11,6 +11,9 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 export default function Home() {
+  // check visibility(on screen) of an invisible div
+  // for changing header opacity when the invisible
+  // part is out ouf the screen
   const { ref: myRef, inView: isVisible } = useInView({});
   useEffect(() => {
     if (!isVisible) {
@@ -19,6 +22,7 @@ export default function Home() {
       document.querySelector("header").classList.remove("bg-opacity-1");
     }
   }, [isVisible]);
+
   return (
     <>
       <Header />
