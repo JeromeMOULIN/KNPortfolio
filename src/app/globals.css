@@ -126,3 +126,16 @@ a {
   opacity: 0.2;
   border-radius: 400px;
 }
+/* utilities */
+.ref-for-header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: red;
+  opacity: 0;
+  height: 50px;
+  width: 400px;
+}
+.bg-opacity-1 {
+  background-color: rgb(85, 85, 85, 1);
+}
