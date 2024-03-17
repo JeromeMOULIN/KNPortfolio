@@ -2,7 +2,7 @@ import React from "react";
 import "./nav.css";
 
 export default function Nav() {
-  // animation on navbar when element is clicked
+  // animation on navbar when an element is clicked
   const isActive = (e) => {
     const navlinks = document.querySelectorAll(".navlink");
     const element = e.target;
