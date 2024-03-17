@@ -13,3 +13,22 @@ nav ul {
 
   width: 100%;
 }
+nav ul li a {
+  display: flex;
+  flex-direction: column;
+}
+.navUnderline::after {
+  display: inline-block;
+  content: " ";
+  background-color: #f19c5d;
+  height: 3px;
+  width: 0%;
+  transition: width 0.5s ease-in-out;
+}
+.navUnderline--expand::after {
+  display: inline-block;
+  content: " ";
+  background-color: #f19c5d;
+  height: 3px;
+  width: 100%;
+}
