@@ -3,21 +3,34 @@ import Link from "next/link";
 
 import "./skill.css";
 import Image from "next/image";
+import { useInView } from "react-intersection-observer";
 
 export default function Skill() {
   const [data, setData] = useState();
+
+  const { ref: skill, inView: isOnScreen } = useInView({});
 
   useEffect(() => {
     // fetch data from json file and set skill part of this data
     fetch("data/data.json")
       .then((res) => res.json())
       .then((data) => setData(data.skills));
-  }, []);
+
+    // underline the skill nav link when it is seen
+    const element = document.getElementById("skill-nav");
+
+    if (isOnScreen) {
+      element.classList.add("navUnderline--expand");
+    }
+    if (!isOnScreen) {
+      element.classList.remove("navUnderline--expand");
+    }
+  }, [isOnScreen]);
 
   return (
     <section id="skill">
       <h2>Compétences</h2>
-      <div className="contentSection">
+      <div className="contentSection" ref={skill}>
         <div className="SkillSection Skills">
           <h3 className="ivory">Stack :</h3>
           <div className="stack">

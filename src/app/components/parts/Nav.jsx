@@ -18,12 +18,18 @@ export default function Nav() {
     <nav>
       <ul className="liste">
         <li>
-          <a onClick={isActive} className=" navlink navUnderline" href="/#home">
+          <a
+            id="home-nav"
+            onClick={isActive}
+            className=" navlink navUnderline"
+            href="/#home"
+          >
             Accueil
           </a>
         </li>
         <li>
           <a
+            id="profil-nav"
             onClick={isActive}
             className="navlink navUnderline"
             href="/#profil"
@@ -32,12 +38,18 @@ export default function Nav() {
           </a>
         </li>
         <li>
-          <a onClick={isActive} className="navlink navUnderline" href="/#skill">
+          <a
+            id="skill-nav"
+            onClick={isActive}
+            className="navlink navUnderline"
+            href="/#skill"
+          >
             Compétences
           </a>
         </li>
         <li>
           <a
+            id="project-nav"
             onClick={isActive}
             className="navlink navUnderline"
             href="/#project"
@@ -47,6 +59,7 @@ export default function Nav() {
         </li>
         <li>
           <a
+            id="contact-nav"
             onClick={isActive}
             className="navlink navUnderline"
             href="/#contact"

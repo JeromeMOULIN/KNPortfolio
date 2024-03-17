@@ -2,17 +2,30 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 import "./profile.css";
+import { useInView } from "react-intersection-observer";
 
 export default function Profile() {
   const [data, setData] = useState();
   const [igb, setIgb] = useState(0);
+
+  const { ref: profil, inView: isOnScreen } = useInView({});
 
   useEffect(() => {
     // fetch data from json fil and set gameboy part of this data
     fetch("data/data.json")
       .then((res) => res.json())
       .then((data) => setData(data.gameboy));
-  }, []);
+    // underline the project nav link when it is seen
+    const element = document.getElementById("profil-nav");
+
+    if (isOnScreen) {
+      element.classList.add("navUnderline--expand");
+    }
+    if (!isOnScreen) {
+      element.classList.remove("navUnderline--expand");
+    }
+  }, [isOnScreen]);
+
   // set an index for progress in profil array
   const progress = () => {
     if (igb >= data.length - 1) {
@@ -25,7 +38,7 @@ export default function Profile() {
   return (
     <section id="profil">
       <h2>Profil</h2>
-      <div className="contentSection">
+      <div className="contentSection" ref={profil}>
         <div className="GBSection">
           <div className="GB">
             <Image

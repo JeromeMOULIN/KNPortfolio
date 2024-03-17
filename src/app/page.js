@@ -14,14 +14,28 @@ export default function Home() {
   // check visibility(on screen) of an invisible div
   // for changing header opacity when the invisible
   // part is out ouf the screen
-  const { ref: myRef, inView: isVisible } = useInView({});
+  const { ref: animHeader, inView: isVisible } = useInView({});
+  const { ref: home, inView: isOnScreen } = useInView({});
   useEffect(() => {
+    // check visibility(on screen) of an invisible div
+    // for changing header opacity when the invisible
+    // part is out ouf the screen
     if (!isVisible) {
       document.querySelector("header").classList.add("bg-opacity-1");
     } else {
       document.querySelector("header").classList.remove("bg-opacity-1");
     }
-  }, [isVisible]);
+
+    // underline the project nav link when it is seen
+    const element = document.getElementById("home-nav");
+
+    if (isOnScreen) {
+      element.classList.add("navUnderline--expand");
+    }
+    if (!isOnScreen) {
+      element.classList.remove("navUnderline--expand");
+    }
+  }, [isVisible, isOnScreen]);
 
   return (
     <>
@@ -30,9 +44,10 @@ export default function Home() {
         <div className="container">
           <div className="wrapper">
             <section id="home">
-              <div className="ref-for-header" ref={myRef}></div>
+              <div className="ref-for-header" ref={animHeader}></div>
               <h1>Jérôme MOULIN</h1>
               <Image
+                ref={home}
                 className="logoHome"
                 src="/assets/img/icon/icon_KaNa.jpeg"
                 alt="Logo representant un corbeau devant un soleil"
