@@ -30,7 +30,7 @@ export default function Skill() {
                       width={50}
                       height={50}
                     />
-                    <p>{skill.name}</p>
+                    <p className="ivory">{skill.name}</p>
                   </div>
                 ))
               : "no data was founded"}
