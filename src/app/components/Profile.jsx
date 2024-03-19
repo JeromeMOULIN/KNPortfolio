@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 
 import "./profile.css";
-import { useInView } from "react-intersection-observer";
 
 export default function Profile() {
   const [data, setData] = useState();
@@ -67,7 +67,6 @@ export default function Profile() {
               </span>
               / {data ? data.length : "Error no data found"}
             </div>
-
             <button onClick={progress}>▼</button>
           </div>
         </div>

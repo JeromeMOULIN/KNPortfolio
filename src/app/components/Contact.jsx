@@ -1,7 +1,8 @@
 import { useInView } from "react-intersection-observer";
-import "./contact.css";
-import ContactForm from "./parts/ContactForm";
 import { useEffect } from "react";
+import ContactForm from "./parts/ContactForm";
+
+import "./contact.css";
 
 export default function Contact() {
   const { ref: contact, inView: isOnScreen } = useInView({});

@@ -43,16 +43,7 @@
   align-items: center;
   width: 100%;
 }
-.Networks button {
-  border: none;
-  border-radius: 25px;
-}
-.btnNetworks button a {
-  align-items: center;
-  height: 2rem;
-  padding: 0 3em;
-  display: flex;
-}
+
 /* git BTN */
 .github {
   background-color: black;
