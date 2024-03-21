@@ -11,9 +11,6 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 export default function Home() {
-  // check visibility(on screen) of an invisible div
-  // for changing header opacity when the invisible
-  // part is out ouf the screen
   const { ref: animHeader, inView: isVisible } = useInView({});
   const { ref: home, inView: isOnScreen } = useInView({});
   useEffect(() => {
@@ -44,7 +41,11 @@ export default function Home() {
         <div className="container">
           <div className="wrapper">
             <section id="home">
-              <div className="ref-for-header" ref={animHeader}></div>
+              <button
+                aria-label="Observer anchor"
+                className="ref-for-header"
+                ref={animHeader}
+              />
               <h1>Jérôme MOULIN</h1>
               <Image
                 ref={home}
