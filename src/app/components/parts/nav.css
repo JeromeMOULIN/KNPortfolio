@@ -32,3 +32,10 @@ nav ul li a {
   height: 3px;
   width: 100%;
 }
+/* responsiv */
+@media (max-width: 1050px) {
+  nav ul {
+    flex-direction: row;
+    gap: 2em;
+  }
+}

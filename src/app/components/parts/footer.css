@@ -47,3 +47,26 @@ footer button span {
   transform: rotate(180deg);
   color: black;
 }
+/* responsiv */
+@media (max-width: 1050px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 50;
+    height: 200px;
+    padding-right: 0em;
+    transform: translateY(170px);
+    transition: transform 1s cubic-bezier(0.18, 0.83, 0.76, 0.74),
+      background-color 1s ease-in-out;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    border-left: 1px solid gray;
+    background-color: rgb(85, 85, 85, 0.2);
+  }
+}

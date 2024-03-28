@@ -18,3 +18,19 @@ header img {
 .bg-opacity-1 {
   background-color: rgb(85, 85, 85, 1);
 }
+/* responsiv */
+@media (max-width: 1050px) {
+  header {
+    padding: 0 3em;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+  }
+  header img {
+    margin-top: 0;
+    border-radius: 50px;
+  }
+}
