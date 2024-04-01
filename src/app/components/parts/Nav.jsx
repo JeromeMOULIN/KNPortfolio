@@ -8,7 +8,11 @@ export default function Nav() {
   };
   return (
     <>
-      <button id="btn-hamburger" onClick={open_btn_hbg}>
+      <button
+        aria-label="hamburger button"
+        id="btn-hamburger"
+        onClick={open_btn_hbg}
+      >
         <span className="line"></span>
         <span className="line"></span>
         <span className="line"></span>

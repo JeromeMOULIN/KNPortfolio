@@ -1,7 +1,8 @@
 /* btn humburger */
 #btn-hamburger {
-  visibility: hidden;
-
+  position: absolute;
+  right: 3em;
+  visibility: collapse;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
