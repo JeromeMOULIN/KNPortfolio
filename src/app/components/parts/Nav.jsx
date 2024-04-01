@@ -4,7 +4,7 @@ import "./nav.css";
 export default function Nav() {
   const open_btn_hbg = () => {
     document.getElementById("nav").classList.toggle("isOpen");
-    document.getElementById("btn-hamburger").classList.toggle("rotate");
+    document.getElementById("btn-hamburger").classList.toggle("rotate-hbg");
   };
   return (
     <>
