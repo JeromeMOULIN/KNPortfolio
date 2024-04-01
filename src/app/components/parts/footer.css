@@ -69,4 +69,8 @@ footer button span {
     border-left: none;
     background-color: rgb(85, 85, 85, 0.2);
   }
+  footer p {
+    text-align: center;
+    max-width: 80%;
+  }
 }
