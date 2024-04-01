@@ -66,7 +66,7 @@ footer button span {
     align-items: center;
     gap: 10px;
 
-    border-left: 1px solid gray;
+    border-left: none;
     background-color: rgb(85, 85, 85, 0.2);
   }
 }

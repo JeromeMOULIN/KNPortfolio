@@ -27,7 +27,7 @@ header img {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    height: fit-content;
+    height: 100px;
   }
   header img {
     margin-top: 0;

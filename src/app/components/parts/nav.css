@@ -1,3 +1,20 @@
+/* btn humburger */
+#btn-hamburger {
+  visibility: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0, 0);
+  height: 35px;
+  border: none;
+}
+#btn-hamburger .line {
+  display: inline-block;
+  height: 4px;
+  width: 40px;
+  background-color: #fffff4;
+}
 nav {
   position: relative;
   top: 40%;
@@ -12,6 +29,9 @@ nav ul {
   gap: 5em;
 
   width: 100%;
+}
+.hbg-isOpen {
+  visibility: hidden;
 }
 nav ul li a {
   display: flex;
@@ -33,9 +53,26 @@ nav ul li a {
   width: 100%;
 }
 /* responsiv */
+.isOpen {
+  visibility: visible;
+  transform: translateY(100px);
+}
 @media (max-width: 1050px) {
+  #btn-hamburger {
+    visibility: visible;
+  }
+  nav {
+    visibility: hidden;
+    transform: translateY(-500px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #555555;
+    width: 250px;
+  }
   nav ul {
-    flex-direction: row;
+    padding: 1em 0;
+    flex-direction: column;
     gap: 2em;
   }
 }
