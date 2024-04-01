@@ -100,6 +100,9 @@
 }
 /* repsonsiv */
 @media (max-width: 930px) {
+  #skill .contentSection {
+    gap: 2em;
+  }
   .Skills {
     height: fit-content;
   }
@@ -107,7 +110,7 @@
     flex-wrap: wrap;
   }
   .skill {
-    margin: 1em 1em;
+    margin: 0.5em 0.5em;
   }
 }
 @media (max-width: 530px) {
