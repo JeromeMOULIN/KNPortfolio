@@ -172,7 +172,7 @@ a {
   section:nth-child(1) {
     background: rgb(85, 85, 85);
     background: linear-gradient(
-      0deg,
+      180deg,
       rgba(85, 85, 85, 1) 0%,
       rgba(0, 0, 0, 1) 100%
     );
@@ -181,7 +181,7 @@ a {
   section:nth-child(2) {
     background: rgb(85, 85, 85);
     background: linear-gradient(
-      180deg,
+      0deg,
       rgba(85, 85, 85, 1) 5%,
       rgba(0, 0, 0, 1) 100%
     );
@@ -190,7 +190,7 @@ a {
   section:nth-child(3) {
     background: rgb(85, 85, 85);
     background: linear-gradient(
-      0deg,
+      180deg,
       rgba(85, 85, 85, 1) 0%,
       rgba(0, 0, 0, 1) 100%
     );
@@ -199,7 +199,7 @@ a {
   section:nth-child(4) {
     background: rgb(85, 85, 85);
     background: linear-gradient(
-      180deg,
+      0deg,
       rgba(85, 85, 85, 1) 5%,
       rgba(0, 0, 0, 1) 100%
     );
@@ -208,7 +208,7 @@ a {
   section:nth-child(5) {
     background: rgb(85, 85, 85);
     background: linear-gradient(
-      0deg,
+      180deg,
       rgba(85, 85, 85, 1) 0%,
       rgba(0, 0, 0, 1) 100%
     );
