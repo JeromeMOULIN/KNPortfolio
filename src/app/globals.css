@@ -168,6 +168,51 @@ a {
     transform: none;
     transform-origin: top left;
   }
+  /* home */
+  section:nth-child(1) {
+    background: rgb(85, 85, 85);
+    background: linear-gradient(
+      0deg,
+      rgba(85, 85, 85, 1) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+  /* Profile */
+  section:nth-child(2) {
+    background: rgb(85, 85, 85);
+    background: linear-gradient(
+      180deg,
+      rgba(85, 85, 85, 1) 5%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+  /* skill */
+  section:nth-child(3) {
+    background: rgb(85, 85, 85);
+    background: linear-gradient(
+      0deg,
+      rgba(85, 85, 85, 1) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+  /* project */
+  section:nth-child(4) {
+    background: rgb(85, 85, 85);
+    background: linear-gradient(
+      180deg,
+      rgba(85, 85, 85, 1) 5%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+  /* contact */
+  section:nth-child(5) {
+    background: rgb(85, 85, 85);
+    background: linear-gradient(
+      0deg,
+      rgba(85, 85, 85, 1) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
   section {
     height: 100vh;
     width: 100vw;
@@ -177,7 +222,7 @@ a {
     align-items: center;
   }
   .contentSection {
-    background-color: rgb(85, 85, 85, 0.2);
+    background-color: rgb(85, 85, 85, 0.3);
     border-radius: 25px;
     border: 2px solid black;
     max-width: 1040px;
