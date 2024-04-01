@@ -98,3 +98,27 @@
   height: 100%;
   padding: 0 3em;
 }
+/* repsonsiv */
+@media (max-width: 930px) {
+  .Skills {
+    height: fit-content;
+  }
+  .stack {
+    flex-wrap: wrap;
+  }
+  .skill {
+    margin: 1em 1em;
+  }
+}
+@media (max-width: 530px) {
+  .Networks {
+    height: 15em;
+  }
+  .btnNetworks {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .CV {
+    flex-direction: column;
+  }
+}
