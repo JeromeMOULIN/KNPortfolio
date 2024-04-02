@@ -69,11 +69,62 @@
       "name": "Github"
     }
   ],
-  "project": {
-    "preview": "portfolio.png",
-    "name": "Portfolio",
-    "description": "A simple portfolio website",
-    "language": ["html", "css", "js"],
-    "gitAdress": "https://github.com/x"
-  }
+  "project": [
+    {
+      "id": 7,
+      "preview": "724Events;JPG",
+      "name": "724 Events",
+      "description": "Projet d'étude, l'objectifs consistait a corriger un maximum de bug",
+      "language": ["html", "css", "js"],
+      "gitAdress": "https://github.com/JeromeMOULIN/724Events"
+    },
+    {
+      "id": 6,
+      "preview": "Argentbank.JPG",
+      "name": "Argent Bank",
+      "description": "Projet d'étude, l'objectifs consistait a crée une page de login et recupré des donnés pour les affichers",
+      "language": ["html", "css", "js"],
+      "gitAdress": "https://github.com/JeromeMOULIN/ArgentBank"
+    },
+    {
+      "id": 5,
+      "preview": "Kasa.JPG",
+      "name": "Kasa",
+      "description": "Projet d'étude, l'objectifs consistait à recuperer des donnés pour les affichers",
+      "language": ["html", "css", "js"],
+      "gitAdress": "https://github.com/JeromeMOULIN/Kasa"
+    },
+    {
+      "id": 4,
+      "preview": "NinaCarducci.JPG",
+      "name": "Nina Carducci",
+      "description": "Projet d'étude, l'objectifs consistait à améliorer le SEO et corriger certain probleme de structure",
+      "language": ["html", "css", "js"],
+      "gitAdress": "https://github.com/JeromeMOULIN/ninacarducci.github.io"
+    },
+    {
+      "id": 3,
+      "preview": "Ohmyfood.JPG",
+      "name": "Oh My Food",
+      "description": "Projet d'étude, l'objectifs consistait à mettre en place un loader et des animations dynamiques",
+      "language": ["html", "css"],
+      "gitAdress": "https://github.com/JeromeMOULIN/ohMyFood"
+    },
+    {
+      "id": 2,
+      "preview": "PrintIt.JPG",
+      "name": "Print It",
+      "description": "Projet d'étude, l'objectifs consistait à intégré une maquette figma",
+      "language": ["html", "css"],
+      "gitAdress": "https://github.com/JeromeMOULIN/PrintIt"
+    },
+    {
+      "id": 1,
+      "preview": "SophieBluel.JPG",
+      "name": "Sophie Bluel",
+      "description": "Projet d'étude, l'objectifs consistait à intégrer des filtres dynamiques, ajoute une page de login qui permet a l'administrateur de pouvoir ajouter ou supprimer du contenue.",
+      "language": ["html", "css", "js"],
+      "gitAdress": "https://github.com/JeromeMOULIN/Sophie-Bluel"
+    }
+  ]
 }
