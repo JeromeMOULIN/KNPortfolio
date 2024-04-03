@@ -27,7 +27,7 @@ export default function Card(props) {
           </ul>
           <button>
             <Link href={`${props.link}`} target="_blank">
-              X
+              Voir
             </Link>
           </button>
         </div>
