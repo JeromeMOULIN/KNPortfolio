@@ -75,7 +75,28 @@
       "preview": "724Events.JPG",
       "name": "724 Events",
       "description": "Projet d'étude, l'objectifs consistait a corriger un maximum de bug",
-      "tech": ["html", "css", "js"],
+      "tech": [
+        {
+          "id": 1,
+          "name": "HTML"
+        },
+        {
+          "id": 2,
+          "name": "CSS"
+        },
+        {
+          "id": 3,
+          "name": "JavaScript"
+        },
+        {
+          "id": 4,
+          "name": "Chrome Debugger"
+        },
+        {
+          "id": 5,
+          "name": "React + Vite"
+        }
+      ],
       "gitAdress": "https://github.com/JeromeMOULIN/724Events"
     },
     {
@@ -83,7 +104,32 @@
       "preview": "Argentbank.JPG",
       "name": "Argent Bank",
       "description": "Projet d'étude, l'objectifs consistait a crée une page de login et recupré des donnés pour les affichers",
-      "tech": ["html", "css", "js"],
+      "tech": [
+        {
+          "id": 1,
+          "name": "HTML"
+        },
+        {
+          "id": 2,
+          "name": "CSS"
+        },
+        {
+          "id": 3,
+          "name": "JavaScript"
+        },
+        {
+          "id": 4,
+          "name": "Axios"
+        },
+        {
+          "id": 5,
+          "name": "Redux"
+        },
+        {
+          "id": 6,
+          "name": "React"
+        }
+      ],
       "gitAdress": "https://github.com/JeromeMOULIN/ArgentBank"
     },
     {
@@ -91,7 +137,24 @@
       "preview": "Kasa.JPG",
       "name": "Kasa",
       "description": "Projet d'étude, l'objectifs consistait à recuperer des donnés pour les affichers",
-      "tech": ["html", "css", "js"],
+      "tech": [
+        {
+          "id": 1,
+          "name": "HTML"
+        },
+        {
+          "id": 2,
+          "name": "CSS"
+        },
+        {
+          "id": 3,
+          "name": "JavaScript"
+        },
+        {
+          "id": 4,
+          "name": "React + Vite"
+        }
+      ],
       "gitAdress": "https://github.com/JeromeMOULIN/Kasa"
     },
     {
@@ -99,7 +162,20 @@
       "preview": "NinaCarducci.JPG",
       "name": "Nina Carducci",
       "description": "Projet d'étude, l'objectifs consistait à améliorer le SEO et corriger certain probleme de structure",
-      "tech": ["html", "css", "js"],
+      "tech": [
+        {
+          "id": 1,
+          "name": "HTML"
+        },
+        {
+          "id": 2,
+          "name": "CSS"
+        },
+        {
+          "id": 3,
+          "name": "JavaScript"
+        }
+      ],
       "gitAdress": "https://github.com/JeromeMOULIN/ninacarducci.github.io"
     },
     {
@@ -107,7 +183,16 @@
       "preview": "Ohmyfood.JPG",
       "name": "Oh My Food",
       "description": "Projet d'étude, l'objectifs consistait à mettre en place un loader et des animations dynamiques",
-      "tech": ["html", "css"],
+      "tech": [
+        {
+          "id": 1,
+          "name": "HTML"
+        },
+        {
+          "id": 2,
+          "name": "CSS"
+        }
+      ],
       "gitAdress": "https://github.com/JeromeMOULIN/ohMyFood"
     },
     {
@@ -115,7 +200,16 @@
       "preview": "PrintIt.JPG",
       "name": "Print It",
       "description": "Projet d'étude, l'objectifs consistait à intégré une maquette figma",
-      "tech": ["html", "css"],
+      "tech": [
+        {
+          "id": 1,
+          "name": "HTML"
+        },
+        {
+          "id": 2,
+          "name": "CSS"
+        }
+      ],
       "gitAdress": "https://github.com/JeromeMOULIN/PrintIt"
     },
     {
@@ -123,7 +217,24 @@
       "preview": "SophieBluel.JPG",
       "name": "Sophie Bluel",
       "description": "Projet d'étude, l'objectifs consistait à intégrer des filtres dynamiques, ajoute une page de login qui permet a l'administrateur de pouvoir ajouter ou supprimer du contenue.",
-      "tech": ["html", "css", "js"],
+      "tech": [
+        {
+          "id": 1,
+          "name": "HTML"
+        },
+        {
+          "id": 2,
+          "name": "CSS"
+        },
+        {
+          "id": 3,
+          "name": "JavaScript"
+        },
+        {
+          "id": 4,
+          "name": "JSONWebToken"
+        }
+      ],
       "gitAdress": "https://github.com/JeromeMOULIN/Sophie-Bluel"
     }
   ]

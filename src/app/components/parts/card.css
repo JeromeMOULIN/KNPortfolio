@@ -6,7 +6,7 @@
 #card {
   border-radius: 20px;
   position: absolute;
-  background-color: #4c4b4b;
+  background-color: rgb(90, 90, 90);
   border: 3px solid rgb(39, 39, 39);
   width: 100%;
   height: 100%;
@@ -36,16 +36,32 @@
 .backSide {
   text-align: center;
   flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 1em;
+  gap: 1em;
   transform: rotateY(180deg);
-  background-color: darkgray;
+  background-color: #4c4b4b;
+}
+.backSide p,
+.backSide ul {
+  background-color: #2d2d2d;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 90%;
 }
 .backSide ul {
   display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 10px;
 }
-#card button {
+.backSide ul li {
+  list-style: inside;
+}
+#card .backSide button {
   position: absolute;
-  bottom: 2em;
+  bottom: 1.5em;
   border-radius: 5px;
   border: none;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,

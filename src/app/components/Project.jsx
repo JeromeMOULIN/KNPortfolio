@@ -47,11 +47,14 @@ export default function Project() {
   };
   const prev = () => {
     setCurrentPage(currentPage - 1);
+    if (currentPage === 1) {
+      setCurrentPage(1);
+    }
   };
   const reset = () => {
     setCurrentPage(1);
   };
-  console.log(data);
+
   return (
     <section id="project">
       <h2>Projets</h2>
@@ -63,7 +66,7 @@ export default function Project() {
                   key={projet.id}
                   name={projet.name}
                   img={projet.preview}
-                  description={projet.preview}
+                  description={projet.description}
                   tech={projet.tech}
                   link={projet.gitAdress}
                 />
@@ -71,12 +74,12 @@ export default function Project() {
             : "no data was founded"}
         </div>
         <div className="pagination">
-          <p onClick={reset}>CC</p>
+          <p onClick={reset}>«</p>
           <p id="prev" onClick={prev}>
-            X
+            ‹
           </p>
-          <a>{currentPage}</a>
-          <p onClick={next}>V</p>
+          <p>{currentPage}</p>
+          <p onClick={next}>›</p>
         </div>
       </div>
     </section>

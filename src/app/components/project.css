@@ -15,3 +15,7 @@
 .hidden {
   visibility: hidden;
 }
+.pagination p {
+  cursor: pointer;
+  font-size: larger;
+}
