@@ -59,3 +59,20 @@ input {
   transform: translateY(1px);
   box-shadow: orange 0px 1px 0px;
 }
+/* responsiv */
+@media (max-width: 1030px) {
+  #contact .contentSection {
+    gap: 30px !important;
+  }
+  .names,
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #subject,
+  #email,
+  #message {
+    margin: 7px 0;
+  }
+}
