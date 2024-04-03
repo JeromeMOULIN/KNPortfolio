@@ -38,7 +38,7 @@
   flex-direction: column;
   justify-content: flex-start;
   padding-top: 1em;
-  gap: 1em;
+  gap: 0.5em;
   transform: rotateY(180deg);
   background-color: #4c4b4b;
 }
@@ -61,7 +61,7 @@
 }
 #card .backSide button {
   position: absolute;
-  bottom: 1.5em;
+  bottom: 1em;
   border-radius: 5px;
   border: none;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
@@ -73,6 +73,13 @@
 @media (max-width: 580px) {
   .cardContainer {
     height: 300px;
-    width: 200px;
+    width: 250px;
+  }
+  .backSide ul {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2px;
   }
 }
