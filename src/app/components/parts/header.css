@@ -27,10 +27,12 @@ header img {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    height: 100px;
+    height: 75px;
   }
   header img {
     margin-top: 0;
     border-radius: 50px;
+    height: 60px;
+    width: 60px;
   }
 }
