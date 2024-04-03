@@ -64,6 +64,9 @@ input {
   #contact .contentSection {
     gap: 30px !important;
   }
+  #contact label {
+    width: 100%;
+  }
   .names,
   .input {
     display: flex;
