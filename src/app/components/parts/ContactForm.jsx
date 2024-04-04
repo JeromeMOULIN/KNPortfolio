@@ -1,7 +1,28 @@
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
+
 import "./contactform.css";
 export default function ContactForm() {
+  const form = useRef();
+  const onSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm("service_c4x5h3v", "template_o3mqmtf", form.current, {
+        publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+      })
+      .then(
+        (sucess) => {
+          alert("Votre message a bien été envoyé!");
+          form.current.reset();
+        },
+        (error) => {
+          alert(error.text);
+        }
+      );
+  };
+
   return (
-    <form>
+    <form ref={form} onSubmit={onSubmit}>
       <div className="names">
         <label htmlFor="lastname">
           Nom<span className="jaune">*</span> :
@@ -13,10 +34,10 @@ export default function ContactForm() {
       </div>
 
       <div className="input">
-        <label htmlFor="subject">
+        <label htmlFor="object">
           Objet<span className="jaune">*</span> :
         </label>
-        <input type="text" name="suject" id="subject" required />
+        <input type="text" name="object" id="object" required />
       </div>
 
       <div className="input">
