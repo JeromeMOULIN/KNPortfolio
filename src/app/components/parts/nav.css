@@ -57,7 +57,7 @@ nav ul li a {
   transform: rotate(0);
 }
 .isOpen {
-  border-top: 1px solid #666666;
+  border: 1px solid #666666;
   overflow: hidden;
   width: 250px;
   height: 17em;

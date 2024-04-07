@@ -12,10 +12,12 @@ export default function Card(props) {
         <div className="frontSide">
           <h3>{props.name}</h3>
           <Image
+            class
             src={"/assets/img/ScreenProjet/" + props.img}
-            alt={props.name}
+            alt={props.name + " website"}
             height={322}
-            width={256}
+            width={250}
+            style={{ objectFit: "fill" }}
           />
         </div>
         <div className="backSide">
