@@ -1,4 +1,4 @@
-section {
+.error-page {
   display: flex;
   background: rgb(85, 85, 85);
   background: linear-gradient(
@@ -8,6 +8,11 @@ section {
   );
   gap: 5em;
 }
-section .errorTitle {
+
+.error-page .errorTitle {
   font-size: 200px;
+}
+.error-page p {
+  margin: 0 5em;
+  text-align: center;
 }
