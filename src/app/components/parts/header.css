@@ -17,6 +17,7 @@ header img {
 }
 .bg-opacity-1 {
   background-color: rgb(85, 85, 85, 1);
+  border-bottom: #666666 solid 1px;
 }
 /* responsiv */
 @media (max-width: 1050px) {

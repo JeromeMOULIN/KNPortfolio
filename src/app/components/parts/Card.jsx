@@ -12,7 +12,6 @@ export default function Card(props) {
         <div className="frontSide">
           <h3>{props.name}</h3>
           <Image
-            class
             src={"/assets/img/ScreenProjet/" + props.img}
             alt={props.name + " website"}
             height={322}
